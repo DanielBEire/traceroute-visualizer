@@ -97,7 +97,7 @@ public class Main extends JFrame {
                 List<String> ips = traceroute.trace(domain, this::publish);
 
                 publish("\nGeolocating IP addresses...");
-                GeoIP geoIP = new GeoIP();
+                geoIP geoIP = new geoIP();
                 List<Point.Double> coords = geoIP.getCoordinates(ips);
 
                 publish("\nDrawing map...");

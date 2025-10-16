@@ -1,6 +1,7 @@
 com\danielbeire\Main.class
+com\danielbeire\geoIP.class
 com\danielbeire\Main$1.class
 com\danielbeire\MapPanel.class
 com\danielbeire\MapPanel$1.class
-com\danielbeire\GeoIP.class
 com\danielbeire\Traceroute.class
+com\danielbeire\geoIP$1.class
